@@ -1,0 +1,30 @@
+Bonus Task 1
+
+Your task is to create a data ware house for the expenses of a university research group.
+In our GitHub Repository you will find a number of data files:
+1) Annual Fund Overviews: These files hold informaiton about the funds that were active each year.
+2) Expense Overviews: These files are assigned one fund and contain information over the actual expenses that were covered by their assigned fund.
+3) Personal Overview: This file shows who was employed in this research group.
+
+You have the following tasks:
+- Read and clean the data files in a jupyter notbook.
+- Set up a duckDB data warehouse in a star schema. 
+	The Fact Table should hold relevant information about expenses (e.g. fund_id, date, value, category, description)
+- Add at least one dimensional table 
+
+
+How to start?
+1) Explore the Data
+	Inspect and understand the structure of each file:
+	What columns exist?
+	What do they represent?
+2) Design the Star Schema
+	Identify the fact table(s): Where can you find transactional data?
+	Identify useful dimension tables: E.g. time, personals, projects.
+3) Create the Tables in DuckDB
+4) Clean and transform the data
+	Make sure that categories you want to use exist in your tables!
+5) Populate the Warehouse
+6) Run a few analytical queries to see if it works
+	Total spend by year or project
+	Projects with highest personnel costs
