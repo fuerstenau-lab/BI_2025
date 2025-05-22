@@ -1,0 +1,44 @@
+Choose a dataset you want to work with. You can you use the Iris dataset,
+the dataset of your BI project or any other available dataset.
+Some ccol examples can be found here:
+https://www.geeksforgeeks.org/top-datasets-for-data-visualization/
+
+Here are some challenges for you:
+
+Initial Inspection
+
+1)Identify the types of features.
+	Create a summary of which features are numeric, categorical, datetime, or textual.
+	Challenge: How do you handle columns that look numeric but are actually IDs or categories?
+	
+2) Create at least one appropriate plot to summarize each type.
+	For numeric: distributions (histogram, KDE, boxplot, etc.)
+	For categorical: bar plots, count plots, pie charts (only if <5 categories)
+	Challenge: Don't just plot everything. Choose plots based on the feature’s cardinality and explain your choice.
+
+
+
+Visualize Relationships
+
+3) Explore pairwise relationships between numeric features.
+	Create a correlation heatmap or scatterplot matrix.
+	Highlight non-obvious correlations or suspiciously high ones.
+	Challenge: Point out multicollinearity or unexpected linear relationships.
+
+4) Explore the relationship between numeric and categorical features.
+	Use grouped boxplots, violin plots, or swarm plots.
+	Challenge: Choose at least one categorical feature and explain how the numeric distribution changes across its levels. Are there clear separations?
+
+5) Choose a pair of features and create at least two different visualizations to show their relationship.
+	Challenge: Which visualization gives the clearest insight? Explain why one chart tells the story better than the other.
+
+
+
+Outliers, Imbalance, and the Unexpected
+
+6) Detect and visualize outliers.
+	Use boxplots, scatterplots, or quantile plots.
+	Challenge: Explain whether the outliers might be errors, rare cases, or key discoveries.
+
+7) Check for class imbalance or rare category values.
+	Challenge: Create a visualization that highlights extreme imbalance without flattening the rest (e.g., log scale bar plots, broken axes, annotations).
