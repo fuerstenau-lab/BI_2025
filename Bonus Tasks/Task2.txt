@@ -1,0 +1,21 @@
+Bonus Task 2
+
+The scond part of the bonus tasks is to connect a dashboard to your data ware house from the first part.
+
+Your task is to create a standardized visualization of relevant data in your data warehouse.
+It is your decision how to implement the visualization:
+	- You can implement function that create simple plots in your terminal. See e.g.:
+		https://duckdb.org/docs/stable/guides/data_viewers/youplot.html
+	- Or you can connect your data ware house to an actual dashboard library, such as plotly dash. Here some ideas for resources
+		https://duckdb.org/docs/stable/clients/python/conversion.html
+		https://medium.com/p/4d3f039ed87f (payWall, if you are interested in the article, please contact me)
+		https://www.youtube.com/watch?v=YoKj78o0_Ck
+
+Please come up with an extension to your data warehouse that visualizates data in two different ways.
+Here are a few ideas:
+	- Identify the most resource-intensive cost centers
+	- Show the proportion of budget that remains available across all funds
+	- Visualize how staff are distributed across projects or departments
+	- Monitor spending over time to detect patterns
+	- Track budget, expenses, and available funds per fund across 2023–2025
+	
