@@ -2,7 +2,7 @@ Bonus Task 2
 
 The scond part of the bonus tasks is to connect a dashboard to your data ware house from the first part.
 
-Your task is to create a standardized visualization of relevant data in your data warehouse.
+Your task is to submit jupyter notebook that creates a standardized visualization of relevant data in your data warehouse.
 It is your decision how to implement the visualization:
 	- You can implement function that create simple plots in your terminal. See e.g.:
 		https://duckdb.org/docs/stable/guides/data_viewers/youplot.html
